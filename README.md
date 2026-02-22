@@ -28,7 +28,9 @@ Please ensure that the downloaded data is stored in: `data/raw/stock_data/`
 Earnings announcement dates can be obtained from **Yahoo Finance**.
 
 - Source: Yahoo Finance  
-- Website: https://finance.yahoo.com  
+- Access method: yfinance Python API
+- Function used: yfinance.Ticker(TICKER).get_earnings_dates()
+- Website: https://finance.yahoo.com
 
 These data should be stored in: `data/raw/earning_anounce_data/`
 
@@ -48,7 +50,7 @@ Macroeconomic and financial uncertainty indicators are sourced from publicly ava
   https://www.policyuncertainty.com
 
 - **CBOE Volatility Index (VIX)**  
-  https://www.cboe.com/tradable_products/vix/vix_historical_data
+  https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv
 
 - **Hang Seng Index (HSI)**  
   https://finance.yahoo.com
