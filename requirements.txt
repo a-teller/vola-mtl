@@ -7,3 +7,4 @@ scikit-learn=1.6.1
 tslearn=0.7.0
 dieboldmariano=1.1.0
 statsmodels==0.14.6
+yfinance==1.2.0
